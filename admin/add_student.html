@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="admin_style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
+    <title>Login</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="disabled">Student Result Management System</a>
+          
+          
+         
+          <a href="../home.html" class="nav-link align-middle px-0 animate">
+            <i class="fs-4 bi-house-fill "></i>
+            <span class="ms-1 d-none d-sm-inline span-color">Home</span>
+          </a>
+          
+        </div>
+      </nav>
+      <div class="login-dark">
+        <form action ="/admin/add_student" method="post">
+            <h2 class="sr-only" style="text-align: center;">New Student</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div class="form-group"><input class="form-control" type="text" name="student_id" placeholder="Student ID"></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><input class="form-control" type="text" name="physics" placeholder="Physics"></div>
+            <div class="form-group"><input class="form-control" type="text" name="chemistry" placeholder="Chemistry"></div>
+            <div class="form-group"><input class="form-control" type="text" name="maths" placeholder="Maths"></div>
+            <div class="form-group"><input class="form-control" type="text" name="english" placeholder="English"></div>
+            <div class="form-group"><input class="form-control" type="text" name="biology" placeholder="Biology"></div>
+
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Update</button></div>
+
+    </div>
+    
+</body>
+</html>
